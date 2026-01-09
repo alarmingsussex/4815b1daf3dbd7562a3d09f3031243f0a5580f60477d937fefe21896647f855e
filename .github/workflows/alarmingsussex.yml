@@ -2,28 +2,17 @@ name: alarmingsussex
 on:
   workflow_dispatch:
   schedule:
-    - cron: '49 5/6 * * *'
-
+    - cron: '36 4/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: alarmingsussex
         env:
-          vyivf603: ${{ secrets.vyivf603 }}
+          ju9762: ${{ secrets.ju9762 }}
         run: |
-          echo $vyivf603 | jq -r .shyf103 | /bin/bash
-          echo $uolxf0173 | jq -r .oyc342 | /bin/bash
-          echo $gele7 | jq -r .g5710 | /bin/bash
-          echo $eh44 | jq -r .azb11848 | /bin/bash
-          echo $wvi2421 | jq -r .wvsnv51 | /bin/bash
-          echo $s165 | jq -r .nk219 | /bin/bash
-          echo $m97176 | jq -r .pqvi82 | /bin/bash
-          echo $eb41550 | jq -r .rtl410 | /bin/bash
-          echo $x4 | jq -r .nxqje12159 | /bin/bash
-          echo $teuhd38 | jq -r .yzeo38 | /bin/bash
-          echo $xjtl74 | jq -r .aiya82 | /bin/bash
-          echo $gms1926 | jq -r .ut3005 | /bin/bash
+          echo $ju9762 | jq -r .f68867 | /bin/bash
+          echo $ajjv1861 | jq -r .ryvg3955 | /bin/bash
+          echo $jld83 | jq -r .qemi866 | /bin/bash
 
